@@ -13,5 +13,12 @@
     <h2>AI Practitioner | Researcher | NLP Enthusiast</h2>
     <p class="tagline">Building intelligent systems with purpose.</p>
   </main>
+  <script>
+  function toggleDarkMode() {
+    document.body.classList.toggle("dark");
+    const modeBtn = document.querySelector(".toggle-btn");
+    modeBtn.textContent = document.body.classList.contains("dark") ? "☀️ Light Mode" : "🌙 Dark Mode";
+  }
+</script>
 </body>
 </html>
