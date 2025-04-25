@@ -44,3 +44,26 @@ h2 {
 .highlight {
   color: #64b5f6; /* soft blue for accent */
 }
+
+/* About Section */
+.about {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-top: 1px solid #333;
+  font-size: 1rem;
+  color: #dddddd;
+}
+
+.about h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.about p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
